@@ -1,0 +1,16 @@
+{
+  "urls": ["https://www.google.com", 5, "http://192.168.18.1/", "http://localhost:5500", "https://www.youtube.com", "https://www.facebook.com", "https://www.wikipedia.org", "https://www.amazon.com", "https://www.twitter.com", "https://www.instagram.com", "https://www.linkedin.com", "https://www.microsoft.com", "https://www.apple.com", "https://www.netflix.com", "https://www.github.com", "https://www.stackoverflow.com", "https://www.reddit.com", "https://www.mozilla.org", "https://www.cloudflare.com", "https://www.spotify.com", "https://www.paypal.com", "https://www.dropbox.com", "https://www.adobe.com", "https://www.oracle.com", "https://www.ibm.com", "https://www.intel.com", "https://www.nvidia.com", "https://www.docker.com", "https://www.python.org", "https://www.djangoproject.com", "https://fastapi.tiangolo.com", "https://nodejs.org", "https://www.gnu.org", "https://www.kernel.org", "https://www.debian.org", "https://ubuntu.com", "https://www.archlinux.org", "https://www.nginx.com", "https://www.apache.org", "https://www.digitalocean.com", "https://www.heroku.com", "https://www.linode.com", "https://www.ovh.com", "https://www.wp.pl", "https://www.onet.pl", "https://www.interia.pl", "https://www.gov.pl", "https://www.nbp.pl", "https://www.sejm.gov.pl", "https://www.polsat.pl", "https://www.tvn.pl", "https://www.allegro.pl", "https://bartoszwidlak.it"],
+  "timeout": 5,
+  "interval": 5,
+  "should_save_to_file": true,
+  "should_print_to_console": true,
+  "schedule": {
+      "0": ["https://www.monday.com"],
+      "1": ["https://www.tuesday.com"],
+      "2": ["https://www.wednesday.com", "sdfsdf"],
+      "3": ["https://www.thursday.com"],
+      "4": ["https://www.friday.com"],
+      "5": ["https://www.saturday.com"],
+      "6": ["https://www.sunday.com"]
+  }
+}
