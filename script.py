@@ -172,6 +172,29 @@ def save_to_file(file_path: str, url: str, status: str, time_to_answer: float, e
         f.write(prepare_message(url, status, time_to_answer, end_time) + "\n")
 
 
+def save_to_json(results: list[tuple]):
+    """Funkcja zapisuje wyniki w formacie json w pliku data.json"""
+    data = {
+        "meta":{
+            "generated_at": f"{datetime.datetime.now().isoformat()}"
+        },
+        "results": []
+    }
+    for result in results:
+        url, status, time_to_answer, end_time = result
+        new_record = {
+            "url": url,
+            "status": status,
+            "time_to_answer": time_to_answer,
+            "time": end_time.isoformat()
+        }
+
+        data["results"].append(new_record)
+
+    with open("data.json", "w+") as f:
+        json.dump(data, f, indent=2)
+
+
 async def fetch(session: aiohttp.ClientSession, url: str, timeout: float):
     """Funkcja sprawdzajaca polaczenie z podanym url, zwraca odpowiedni status oraz czas reakcji serwera"""
     start = time.perf_counter()
@@ -223,6 +246,7 @@ async def main(config_path: str, log_path: str):
 
                 results = await check_all(config["urls"], session, config["timeout"])
                 sorted_results = sorted(results, key=lambda x: x[3]) #x[3] = end_time
+                save_to_json(sorted_results)
                 for result in sorted_results:
                     output_results(config["should_print_to_console"], config["should_save_to_file"], log_path, result)
                 await asyncio.sleep(config["interval"])
