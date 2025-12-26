@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "generated_at": "2025-12-26T13:06:03.116952"
+  },
+  "results": [
+    {
+      "url": "https://www.python.org",
+      "status": 200,
+      "time_to_answer": 0.217280812,
+      "time": "2025-12-26T13:05:57.649112"
+    },
+    {
+      "url": "https://www.wp.pl",
+      "status": 200,
+      "time_to_answer": 0.28573131799999996,
+      "time": "2025-12-26T13:05:57.716942"
+    },
+    {
+      "url": "https://www.friday.com",
+      "status": 200,
+      "time_to_answer": 0.28772921399999996,
+      "time": "2025-12-26T13:05:57.718242"
+    },
+    {
+      "url": "https://www.polsat.pl",
+      "status": 200,
+      "time_to_answer": 0.3031581139999999,
+      "time": "2025-12-26T13:05:57.734090"
+    },
+    {
+      "url": "https://www.archlinux.org",
+      "status": "DOWN",
+      "time_to_answer": 0.323864707,
+      "time": "2025-12-26T13:05:57.755326"
+    },
+    {
+      "url": "https://www.amazon.com",
+      "status": 200,
+      "time_to_answer": 0.347046151,
+      "time": "2025-12-26T13:05:57.778608"
+    },
+    {
+      "url": "https://www.sejm.gov.pl",
+      "status": 200,
+      "time_to_answer": 0.3481070339999999,
+      "time": "2025-12-26T13:05:57.778945"
+    },
+    {
+      "url": "https://www.onet.pl",
+      "status": 200,
+      "time_to_answer": 0.357486773,
+      "time": "2025-12-26T13:05:57.789501"
+    },
+    {
+      "url": "https://www.linkedin.com",
+      "status": 200,
+      "time_to_answer": 0.382579043,
+      "time": "2025-12-26T13:05:57.812736"
+    },
+    {
+      "url": "https://www.nbp.pl",
+      "status": 200,
+      "time_to_answer": 0.38978969100000005,
+      "time": "2025-12-26T13:05:57.821891"
+    },
+    {
+      "url": "https://www.heroku.com",
+      "status": 200,
+      "time_to_answer": 0.40638616600000005,
+      "time": "2025-12-26T13:05:57.837123"
+    },
+    {
+      "url": "https://bartoszwidlak.it",
+      "status": 200,
+      "time_to_answer": 0.5097192309999999,
+      "time": "2025-12-26T13:05:57.942174"
+    },
+    {
+      "url": "https://www.reddit.com",
+      "status": 200,
+      "time_to_answer": 0.511335836,
+      "time": "2025-12-26T13:05:57.942996"
+    },
+    {
+      "url": "https://www.adobe.com",
+      "status": 200,
+      "time_to_answer": 0.521441888,
+      "time": "2025-12-26T13:05:57.953992"
+    },
+    {
+      "url": "https://www.nvidia.com",
+      "status": 200,
+      "time_to_answer": 0.5714751060000001,
+      "time": "2025-12-26T13:05:58.004114"
+    },
+    {
+      "url": "https://www.paypal.com",
+      "status": 200,
+      "time_to_answer": 0.6551622240000001,
+      "time": "2025-12-26T13:05:58.086915"
+    },
+    {
+      "url": "https://www.ibm.com",
+      "status": 200,
+      "time_to_answer": 0.658579083,
+      "time": "2025-12-26T13:05:58.090511"
+    },
+    {
+      "url": "https://www.debian.org",
+      "status": 200,
+      "time_to_answer": 0.6714324709999999,
+      "time": "2025-12-26T13:05:58.104262"
+    },
+    {
+      "url": "https://www.mozilla.org",
+      "status": 200,
+      "time_to_answer": 0.672193983,
+      "time": "2025-12-26T13:05:58.105196"
+    },
+    {
+      "url": "https://nodejs.org",
+      "status": 200,
+      "time_to_answer": 0.687210012,
+      "time": "2025-12-26T13:05:58.119953"
+    },
+    {
+      "url": "http://localhost:5500",
+      "status": "DOWN",
+      "time_to_answer": 0.6886573450000001,
+      "time": "2025-12-26T13:05:58.124845"
+    },
+    {
+      "url": "https://www.netflix.com",
+      "status": 200,
+      "time_to_answer": 0.727502841,
+      "time": "2025-12-26T13:05:58.158536"
+    },
+    {
+      "url": "https://www.docker.com",
+      "status": 200,
+      "time_to_answer": 0.73866858,
+      "time": "2025-12-26T13:05:58.171749"
+    },
+    {
+      "url": "https://www.wikipedia.org",
+      "status": 403,
+      "time_to_answer": 0.739419659,
+      "time": "2025-12-26T13:05:58.172738"
+    },
+    {
+      "url": "https://www.digitalocean.com",
+      "status": 200,
+      "time_to_answer": 0.7550999199999999,
+      "time": "2025-12-26T13:05:58.188795"
+    },
+    {
+      "url": "https://www.google.com",
+      "status": 200,
+      "time_to_answer": 0.7571439119999999,
+      "time": "2025-12-26T13:05:58.192098"
+    },
+    {
+      "url": "https://www.kernel.org",
+      "status": 200,
+      "time_to_answer": 0.7910218090000001,
+      "time": "2025-12-26T13:05:58.224531"
+    },
+    {
+      "url": "https://www.cloudflare.com",
+      "status": 200,
+      "time_to_answer": 0.805830051,
+      "time": "2025-12-26T13:05:58.239253"
+    },
+    {
+      "url": "https://www.gov.pl",
+      "status": 200,
+      "time_to_answer": 0.812241478,
+      "time": "2025-12-26T13:05:58.246739"
+    },
+    {
+      "url": "https://www.facebook.com",
+      "status": 200,
+      "time_to_answer": 0.821884734,
+      "time": "2025-12-26T13:05:58.256939"
+    },
+    {
+      "url": "https://www.github.com",
+      "status": 200,
+      "time_to_answer": 0.8582230770000001,
+      "time": "2025-12-26T13:05:58.289533"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com",
+      "status": 200,
+      "time_to_answer": 0.8841576040000001,
+      "time": "2025-12-26T13:05:58.318913"
+    },
+    {
+      "url": "https://www.youtube.com",
+      "status": 200,
+      "time_to_answer": 0.942515989,
+      "time": "2025-12-26T13:05:58.377146"
+    },
+    {
+      "url": "https://www.instagram.com",
+      "status": 200,
+      "time_to_answer": 0.945132383,
+      "time": "2025-12-26T13:05:58.379020"
+    },
+    {
+      "url": "https://www.intel.com",
+      "status": 200,
+      "time_to_answer": 0.958642679,
+      "time": "2025-12-26T13:05:58.394153"
+    },
+    {
+      "url": "https://www.apple.com",
+      "status": 200,
+      "time_to_answer": 0.979901484,
+      "time": "2025-12-26T13:05:58.415715"
+    },
+    {
+      "url": "https://www.apache.org",
+      "status": 200,
+      "time_to_answer": 0.996837696,
+      "time": "2025-12-26T13:05:58.432175"
+    },
+    {
+      "url": "https://www.oracle.com",
+      "status": 403,
+      "time_to_answer": 1.064481814,
+      "time": "2025-12-26T13:05:58.500589"
+    },
+    {
+      "url": "https://www.tvn.pl",
+      "status": 200,
+      "time_to_answer": 1.095647685,
+      "time": "2025-12-26T13:05:58.528013"
+    },
+    {
+      "url": "https://www.interia.pl",
+      "status": 200,
+      "time_to_answer": 1.0927690239999999,
+      "time": "2025-12-26T13:05:58.528791"
+    },
+    {
+      "url": "https://www.twitter.com",
+      "status": "DOWN",
+      "time_to_answer": 1.095722935,
+      "time": "2025-12-26T13:05:58.529344"
+    },
+    {
+      "url": "http://192.168.18.1/",
+      "status": 200,
+      "time_to_answer": 1.1186471949999999,
+      "time": "2025-12-26T13:05:58.552672"
+    },
+    {
+      "url": "https://www.allegro.pl",
+      "status": 403,
+      "time_to_answer": 1.123615982,
+      "time": "2025-12-26T13:05:58.558471"
+    },
+    {
+      "url": "https://www.ovh.com",
+      "status": 200,
+      "time_to_answer": 1.188916077,
+      "time": "2025-12-26T13:05:58.622161"
+    },
+    {
+      "url": "https://www.dropbox.com",
+      "status": 200,
+      "time_to_answer": 1.2211722680000001,
+      "time": "2025-12-26T13:05:58.657083"
+    },
+    {
+      "url": "https://ubuntu.com",
+      "status": 200,
+      "time_to_answer": 1.265516746,
+      "time": "2025-12-26T13:05:58.701133"
+    },
+    {
+      "url": "https://www.spotify.com",
+      "status": 200,
+      "time_to_answer": 1.3197046000000001,
+      "time": "2025-12-26T13:05:58.754858"
+    },
+    {
+      "url": "https://www.stackoverflow.com",
+      "status": 200,
+      "time_to_answer": 1.365275262,
+      "time": "2025-12-26T13:05:58.797487"
+    },
+    {
+      "url": "https://www.nginx.com",
+      "status": 200,
+      "time_to_answer": 1.583759489,
+      "time": "2025-12-26T13:05:59.014419"
+    },
+    {
+      "url": "https://www.microsoft.com",
+      "status": 200,
+      "time_to_answer": 1.835744808,
+      "time": "2025-12-26T13:05:59.271474"
+    },
+    {
+      "url": "https://www.djangoproject.com",
+      "status": 200,
+      "time_to_answer": 2.527706149,
+      "time": "2025-12-26T13:05:59.958868"
+    },
+    {
+      "url": "https://www.linode.com",
+      "status": 200,
+      "time_to_answer": 2.637597714,
+      "time": "2025-12-26T13:06:00.070553"
+    },
+    {
+      "url": "https://www.gnu.org",
+      "status": "TIMEOUT",
+      "time_to_answer": 5.682656316999999,
+      "time": "2025-12-26T13:06:03.116543"
+    }
+  ]
+}
