@@ -1,10 +1,6 @@
 # Uptime Scheduler – website availability monitor
 <hr>
 
-## Used technologies
-<img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python"/>
-<img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/flask.png" alt="Flask"/>
-
 ## How to install
 
 1. Clone repository
@@ -82,18 +78,3 @@ Everyone field in config is optional, if a field is missing or wrong type, the s
 
 >Log file
 <img src="./images/example_log.png" alt="Example log file outpu">
-
-
-## Problems
-Czesc stron (np. https://oracle.com, https://www.amazon.pl) potrafia rzucic status 403 - forbiden lub 503 - service unaviable mimo ze w przegladarce jestesmy w stanie poprawnie wlaczyc dana strone
-## Ograniczenia
-
-## Potencjalne ulepszenia
-
-
-Author: Bartosz Widlak <br>
-[GitHub](https://github.com/N3nT) <br> 
-[WWW](https://bartoszwidlak.it/) 
-
-
-<hr>
