@@ -194,10 +194,17 @@ def save_to_json(results: list[tuple]):
     with open("data.json", "w+") as f:
         json.dump(data, f, indent=2)
 
+async def timed_fetch(session: aiohttp.ClientSession, url: str, timeout: float):
+    """Funkcja mierzaca czas odpowiedzi serwera z wykorzystaniem funkcji fetch"""
+    start = time.perf_counter()
+    url, status = await fetch(session, url, timeout)
+    end_time = datetime.datetime.now()
+    latency = time.perf_counter() - start
+
+    return url, status, latency, end_time
 
 async def fetch(session: aiohttp.ClientSession, url: str, timeout: float):
-    """Funkcja sprawdzajaca polaczenie z podanym url, zwraca odpowiedni status oraz czas reakcji serwera"""
-    start = time.perf_counter()
+    """Funkcja sprawdzajaca polaczenie z podanym url, zwraca odpowiedni status"""
     try:
         async with session.get(url, timeout=timeout) as resp:
             status = resp.status
@@ -207,14 +214,13 @@ async def fetch(session: aiohttp.ClientSession, url: str, timeout: float):
 
     except aiohttp.ClientError:
         status = "DOWN"
-    end_time = datetime.datetime.now()
-    latency = time.perf_counter() - start
-    return url, status, latency, end_time
+
+    return url, status
 
 
 async def check_all(urls: list, session: aiohttp.ClientSession, timeout: float):
     """Asynchroniczna funkcja wykonujaca zapytania do wszystkich url i zbierajaca wyniki tych zapytan"""
-    tasks = [fetch(session, url, timeout) for url in urls]
+    tasks = [timed_fetch(session, url, timeout) for url in urls]
     results = await asyncio.gather(*tasks)
     return results
 
